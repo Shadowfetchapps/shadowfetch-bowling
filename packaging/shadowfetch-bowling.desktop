@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Shadowfetch Bowling
+GenericName=Bowling
+Comment=Ten-pin bowling for Linux
+Exec=shadowfetch-bowling
+TryExec=shadowfetch-bowling
+Icon=shadowfetch-bowling
+Terminal=false
+Categories=Game;
+Keywords=bowling;tenpin;pins;shadowfetch;
+StartupNotify=true
+StartupWMClass=Shadowfetch Bowling

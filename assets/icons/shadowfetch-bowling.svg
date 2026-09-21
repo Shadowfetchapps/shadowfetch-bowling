@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="plate" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#141820"/>
+      <stop offset="1" stop-color="#07090c"/>
+    </linearGradient>
+    <linearGradient id="rim" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d8e4f0"/>
+      <stop offset="1" stop-color="#6a8498"/>
+    </linearGradient>
+    <radialGradient id="ball" cx="38%" cy="34%" r="62%">
+      <stop offset="0" stop-color="#4a5a6c"/>
+      <stop offset="1" stop-color="#121820"/>
+    </radialGradient>
+  </defs>
+  <rect x="36" y="36" width="440" height="440" rx="118" fill="url(#plate)"/>
+  <rect x="48" y="48" width="416" height="416" rx="108" fill="none" stroke="url(#rim)" stroke-width="10"/>
+  <circle cx="210" cy="290" r="108" fill="url(#ball)" stroke="#c8d4e0" stroke-width="6"/>
+  <circle cx="176" cy="250" r="11" fill="#0c1016"/>
+  <circle cx="206" cy="238" r="11" fill="#0c1016"/>
+  <circle cx="188" cy="276" r="11" fill="#0c1016"/>
+  <path d="M332 118c18 8 28 28 24 52-6 36-28 70-28 108 0 22 10 40 10 40h-44s-8-18-8-42c0-40 24-78 28-110 4-22 0-40 18-48z" fill="#f2ece4" stroke="#c43a3a" stroke-width="8"/>
+  <ellipse cx="336" cy="132" rx="18" ry="14" fill="#f7f2ea"/>
+</svg>
